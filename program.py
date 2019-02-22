@@ -50,14 +50,13 @@ while True:
     for i  in range (zone_count): 
         if mypod[i] > 0 :
             sekitar = zoneMap[i]
-            for j in range (len(sekitar)):
-                
+            for j in range (len(sekitar)) :
                 if ( not(mapped[j]) and len(sekitar) >= 1 ) :
-                    if ( len(sekitar) ==1 ):
+                    if ( len(sekitar) ==1 and mypod[i] <= 2):
                         eksekusi += str(mypod[i])+" "+str(i)+" "+str(int(sekitar[j]))+" "
                     else :
                         eksekusi += str(mypod[i]//len(sekitar))+" "+str(i)+" "+str(int(sekitar[j]))+" "
-                   
+                     
                    
                     
     # first line for movement commands, second line no longer used (see the protocol in the statement for details)
