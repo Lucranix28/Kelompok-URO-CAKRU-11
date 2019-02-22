@@ -10,7 +10,7 @@ Tugas Programming day 3 URO
 
 - Rosyid Ridho 16418279
 
-#PENJELASAN GAME
+# PENJELASAN GAME
 Game ini adalah suatu jenis game bergenre dominasi , dimana map dari game ini terdiri dari tile-tile yang berbentuk hexagonal 
 , tiap sisi hexagonal dapat terhubung dengan tile-tile hexagonal lainnya . Kita bermain sebagai pengendali pesawat \ POD yang 
 memiliki markas dan mampu menggerakan 1 / lebih POD dari 1 tile ke tile lainnya . Ketika POD bergerak ke tile yang kosong ,
